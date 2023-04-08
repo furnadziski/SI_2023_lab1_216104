@@ -1,0 +1,49 @@
+fpeta@DESKTOP-2O4KME7 MINGW64 ~/Desktop/SI_2023_lab1_216104 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+fpeta@DESKTOP-2O4KME7 MINGW64 ~/Desktop/SI_2023_lab1_216104 (master)
+$ git log
+commit f6164333b5bfc2b094d8c227020361f3f9bb7181 (HEAD -> master, origin/master)
+Author: furnadziski <fpetar26@gmail.com>
+Date:   Sat Apr 8 19:56:27 2023 +0200
+
+    logs
+
+commit a81f52aa505dead388dd4f53855e31778d139d1d
+Author: furnadziski <95377630+furnadziski@users.noreply.github.com>
+Date:   Sat Apr 8 19:47:40 2023 +0200
+
+    mora delete ne se zacuvani promenite
+
+commit c00019ae897fa28e2ea21e084c76a3a63744678c
+Merge: 47feb17 6569db1
+Author: furnadziski <fpetar26@gmail.com>
+Date:   Sat Apr 8 19:46:25 2023 +0200
+
+    Final commit
+
+commit 6569db1ab9938c638829dde70e5e6f72aac5b139 (origin/bug2, bug2)
+Author: furnadziski <fpetar26@gmail.com>
+Date:   Sat Apr 8 19:27:52 2023 +0200
+
+    Fix Wrong condition in filterOddNumbers
+
+commit 47feb17801257cf35a8098d3cf46af15c8046e34 (origin/bug1, bug1)
+Author: furnadziski <fpetar26@gmail.com>
+Date:   Sat Apr 8 19:23:04 2023 +0200
+
+    Fix Wrong loop for reading
+
+commit 3b1c78dd137038bfd415348460b4fcc93a17078f
+Author: furnadziski <fpetar26@gmail.com>
+Date:   Sat Apr 8 19:11:55 2023 +0200
+
+    Add java class
+
+commit 919f24c3904a44c49f8d68368232919a501f66fa
+Author: furnadziski <fpetar26@gmail.com>
+Date:   Sat Apr 8 19:08:33 2023 +0200
+
+    Initial commit
