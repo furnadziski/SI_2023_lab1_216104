@@ -1,0 +1,59 @@
+Чекор 4:
+правиме датотека
+mkdir SI_2023_lab1_216104
+влегуваме во неа
+cd SI_2023_lab1_216104
+го иницијализираме гит 
+git init
+Чекор 5:
+git remote add origin https://github.com/furnadziski/SI_2023_lab1_216104.git
+Чекор 6:
+git add README.md
+git commit -m "Initial commit"
+Чекор 7:
+git add SILab1.java
+git commit -m "Add java class"
+
+Чекор 8:
+git push origin master
+ја синхронизираме гранката мастер со репото на гитхуб(remote repo)
+Чекор 9:
+git checkout master -да се осигураме дека сме на мастер и од тука отвараме 3 нови гранки со командата-
+git branch bug1
+git branch bug2 
+git branch bug3
+Чекор 10:
+git checkout bug1
+Чекор 11:
+nano SILab1.java-влегувам во филот и ја поправам грешката
+ git commit -a -m"Fix Wrong loop for reading"-ја додавам датотеката и правам комит
+Чекор 12:
+git checkout bug2- се префрламе на гранката bug2cd
+Чекор 13:
+nano SILab1.java-влегувам во филот и ја поправам грешката
+git commit -a -m"Fix wrong condition in filterOddNumbers"-ја додавам датотеката и правам комит
+Чекор 14:
+git checkout bug3
+Чекор 15:
+nano SILab1.java-влегувам во филот и ја поправам грешката
+git commit -a -m"Fix method sumEvenNumbers"-ја додавам датотеката и правам комит
+Чекор 16:
+git push origin --all -синхронизација на сите гранки со репото на гит
+Чекор 17:
+git checkout мmaster
+Чекор 18:
+git merge bug1-ја спојувам гранката буг1 со мастер
+
+Чекор 19:
+git push origin --all -синхронизација на сите гранки со репото на гит
+Чекор 20:
+
+Чекор 21:
+Чекор 22:
+Чекор 23:
+Чекор 24:
+Чекор 25:
+Чекор 26:
+
+
+
